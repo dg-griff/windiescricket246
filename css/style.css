@@ -1,0 +1,204 @@
+.navbar-custom {
+    background-color: white;
+}
+
+.navbar-custom .navbar-brand {
+    color: maroon;
+}
+
+/* a {
+    color: maroon;
+}
+
+a:hover {
+    color: #0f0;
+} */
+
+
+/* .btn-primary {
+    color: maroon;
+    background-color: yellow;
+    border-color: yellow;
+} */
+
+.navbar-brand:hover {
+    color: maroon;
+    background-color: maroon;
+    border-color: maroon;
+}
+
+/* .btn-primary:hover {
+    color: maroon;
+    background-color: maroon;
+    border-color: maroon;
+} */
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,0);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+body {
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: maroon;
+    /* background: maroon url("https://images8.alphacoders.com/442/thumb-1920-442882.jpg") no-repeat right bottom; */
+}
+
+.space
+{
+    height: 100px;
+}
+
+.jumbotron {
+    background-color: maroon;
+    color: yellow;
+    /* background: url("https://a.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1173572_1296x729.jpg&w=920&h=518&scale=crop&cquality=80&location=origin&format=jpg") no-repeat center center fixed;
+   -webkit-background-size: 50% 50%;
+   -moz-background-size: 50% 50%;
+   background-size: 50% 50%;
+   -o-background-size: 50% 50%; */
+    /* background: url("https://a.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1173572_1296x729.jpg&w=920&h=518&scale=crop&cquality=80&location=origin&format=jpg") center center / cover no-repeat; */
+	
+    /* background-size: 100% 100%; */
+}
+
+
+.jumbo{
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    color: maroon;
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
+}
+
+/* .holder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.kraigg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    background-color: yellow;
+    border: none;
+    color: maroon;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+
+  .button2 {
+    background-color: white;
+    border: none;
+    color: maroon;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.25s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+a.three:link {color: maroon;}
+a.three:visited {color: maroon;}
+a.three:hover {background: yellow;}
+
+/* h4{
+    text-align: center;
+    color: maroon;
+} */
+
+/* .jason{
+    color: black;
+} */
+
+.brath{
+    color: black;
+}
+
+.heading{
+    text-align: center;
+    color: black;
+}
+
+.info{
+    color: black;
+}
+
+.news{
+    color: black;
+}
+
+iframe {
+    display:block;
+    margin: 0 auto;
+}
+#ntext {
+    color: maroon;
+     }
+
+#player{
+    text-align: center;
+}
+
+div#content {
+    background-image: url("https://images8.alphacoders.com/442/thumb-1920-442882.jpg");
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* You may add things like width, height, background-size... */
+}
