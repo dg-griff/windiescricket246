@@ -27,6 +27,12 @@ a:hover {
     border-color: maroon;
 }
 
+.about:hover{
+    color: white;
+    background-color: maroon;
+    border-color: maroon;
+}
+
 /* .btn-primary:hover {
     color: maroon;
     background-color: maroon;
