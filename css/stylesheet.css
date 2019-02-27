@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'BatmanForeverAlternate';
+    src: url('BatmanForeverAlternate.woff2') format('woff2'),
+        url('BatmanForeverAlternate.woff') format('woff'),
+        url('BatmanForeverAlternate.ttf') format('truetype'),
+        url('BatmanForeverAlternate.svg#BatmanForeverAlternate') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
