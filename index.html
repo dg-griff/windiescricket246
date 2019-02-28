@@ -63,7 +63,7 @@
                                                                                                         <a href="https://www.instagram.com/windiescricket/?hl=en" class="navbar-left"><img src="images/insta.svg" width="40" height="40" title="Visit the official Instagram page of Cricket West Indies"></a>&nbsp;&nbsp;&nbsp;
                                                                                                         <a href="https://twitter.com/windiescricket" class="navbar-left"><img src="images/twitter.svg" width="40" height="40" title="Visit the official Twitter page of Cricket West Indies"></a>&nbsp;&nbsp;&nbsp;
                                                                                                         
-                                                                                                <a class="navbar-brand mb-0 h1 navbar" href="https://www.google.com/" title="Thanks for visiting my website! Goodbye!">Logout</a>
+                                                                                                <a class="navbar-brand mb-0 h1 navbar" href="https://www.google.com/" title="Thanks for visiting my website! Goodbye!" id="exit">Logout</a>
                                                                                           </div>
                                                                                         </div>      
                                 
@@ -93,7 +93,15 @@
                                                 
                                                 </section>
 
-                                                
+                                                <div class="ticker">
+                                                        <strong>News:</strong>
+                                                        <ul>
+                                                          <li>Ticker item #1</li>
+                                                          <li>Ticker item #2</li>
+                                                          <li><em>Another</em> ticker item</li>
+                                                        </ul>
+                                                </div>
+
                                         
                                                 <br><br>
                                                  <section>
@@ -185,6 +193,30 @@
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
                 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+                <!-- Latest version of the jQuery library -->
+                <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+
+                <a href="http://jquery.com/">jQuery</a>
+                <script src="jquery.js"></script>
+                
+                <script>
+                        $( document ).ready(function() {
+ 
+                        $( "#exit" ).click(function( event ) {
+
+                        alert( "Thanks for visiting!" );
+
+                        });
+
+                        });
+ 
+                $('.ticker').ticker();
+ 
+                </script>
+                
+                <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js.ticker.js"></script>
+
+                <script> src="library/script.js"</script> -->
 
                 <!-- Older version -->
                 <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
