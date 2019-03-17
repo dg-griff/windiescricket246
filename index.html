@@ -14,12 +14,35 @@
 
         <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Luckiest+Guy|Open+Sans:bold|Orbitron:bold|Permanent+Marker|Russo+One|Special+Elite" rel="stylesheet">
         
+        <!-- Required to add favicon image in page tab -->
+       <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
+       <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
+       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png" />
+       <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
+       <link rel="apple-touch-icon-precomposed" sizes="60x60" href="apple-touch-icon-60x60.png" />
+       <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png" />
+       <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76.png" />
+       <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
+       <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
+       <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+       <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+       <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+       <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
+       <meta name="application-name" content="&nbsp;"/>
+       <meta name="msapplication-TileColor" content="#FFFFFF" />
+       <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+       <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+       <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+       <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+       <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+        
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     
     <body>
-                <div>
+                
+                <div class="bg">
                                 <section>
                                                 <header>
                                                                 <section>
@@ -92,6 +115,8 @@
                                                      </header>
                                                 
                                                 </section>
+
+                                                
 
                                                 <!-- <div class="ticker">
                                                         <strong>News:</strong>
@@ -175,14 +200,16 @@
                                                                                         </a><p><b><a class="three" href="roston-chase.html" target="_blank">Roston Chase</a></b></p> -->
                                                         
                                                 </section>
+                <br><br><br>
+                <center><a href="#top" class="about navbar-custom navbar-brand" id="wordmark"> - Return to top of page - </a></center>
+                                                <br><br>
 
-                <footer class="heading">
-                       <center><br><br><br><h4 class="about navbar-custom navbar-brand">&nbsp;© 2019 DGtronicz® | version 3.5&nbsp;</h4>
+                <footer>
+                       <center><br><br><br><h6 class="about navbar-custom navbar-brand">&nbsp;© 2019 DGtronicz® | version 3.5&nbsp;</h6>
                         <br><img src="images/dgi_logo_sm.jpg" alt=""><br><br></center> 
                 </footer>
 
-                <center><a href="#top" class="about navbar-custom navbar-brand" id="wordmark"> - Return to top of page - </a></center>
-                <br><br>
+               
         </div>
         
                 
@@ -192,12 +219,14 @@
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
                 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+               
                 <!-- Latest version of the jQuery library -->
-                <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+                <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+                <script> src="library/script.js"</script>
 
                 <!-- <a href="http://jquery.com/">jQuery</a> -->
-                <script src="jquery.js"></script>
+                <!-- <script src="jquery.js"></script> -->
                 
                 <script>
                         $( document ).ready(function() {
@@ -210,17 +239,6 @@
 
                         });
  
-                $('.ticker').ticker();
- 
                 </script>
-                
-                <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js.ticker.js"></script>
-
-                <script> src="library/script.js"</script> -->
-
-                <!-- Older version -->
-                <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
     </body>
 </html>
