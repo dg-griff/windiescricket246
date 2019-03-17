@@ -2,14 +2,47 @@ body {
     color: maroon;
     /* font-family: Arial, Helvetica, sans-serif; */
     font-family: 'Open Sans', sans-serif;
-    background-color: maroon;
-    background-image: url("https://images.unsplash.com/photo-1531415074968-036ba1b575da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1947&q=80");
-    background-color: rgba(255, 255, 255, 0.4);
-    background-blend-mode: lighten;
-    background-repeat: no-repeat;
+    height: 100%;
+    /* background-color: maroon; */
+    /* background-image: url("https://images.unsplash.com/photo-1531415074968-036ba1b575da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1947&q=80"); */
+    /* background-color: rgba(255, 255, 255, 0.4); */
+    /* background-blend-mode: lighten; */
+    /* background-repeat: no-repeat; */
     /* background-position: bottom; */
-    background-size: cover;
+    /* background-size: cover; */
 }
+
+.bg {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1531415074968-036ba1b575da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1947&q=80");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter:opacity(30%); */
+  }
+
+/* #bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+  #bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  } */
 
 /* font-family: 'Permanent Marker', cursive;
 font-family: 'Luckiest Guy', cursive;
@@ -40,6 +73,10 @@ font-family: 'Open Sans', sans-serif;*/
     font-family: 'Orbitron', sans-serif;
     text-shadow: 4px 4px 4px #aaa;
 }
+
+/* #textclr{
+    color: white;
+}  */
 
 /* a {
     color: maroon;
@@ -131,7 +168,7 @@ a:hover {
 }
 
 h1 {
-    
+    color: yellow;
     text-align: center;
 }
 
@@ -140,7 +177,7 @@ h2 {
 }
 
 h3 {
-    color: maroon;
+    color: yellow;
     text-align: center;
 }
 
@@ -212,9 +249,13 @@ h3 {
     right: 0;
   }
 
-a.three:link {color: maroon;}
-a.three:visited {color: maroon;}
-a.three:hover {background: yellow;}
+a.three:link {color: yellow;}
+a.three:visited {color: yellow;}
+a.three:hover {background: maroon;}
+
+a.four:link {color: maroon;}
+a.four:visited {color: maroon;}
+a.four:hover {background: yellow;}
 
 /* h4{
     text-align: center;
@@ -226,20 +267,20 @@ a.three:hover {background: yellow;}
 } */
 
 .brath{
-    color: black;
+    color: white;
 }
 
 .heading{
     text-align: center;
-    color: black;
+    color: yellow;
 }
 
 .info{
-    color: black;
+    color: white;
 }
 
 .news{
-    color: black;
+    color: white;
 }
 
 iframe {
