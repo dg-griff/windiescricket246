@@ -1,12 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script|Luckiest+Guy|Open+Sans:bold|Orbitron:bold|Permanent+Marker|Russo+One|Special+Elite);
+
 body {
     color: maroon;
+    font-family: 'Orbitron', sans-serif;
     /* font-family: Arial, Helvetica, sans-serif; */
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     height: 100%;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
     /* background-color: maroon; */
     /* background-image: url("https://images.unsplash.com/photo-1531415074968-036ba1b575da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1947&q=80"); */
     /* background-color: rgba(255, 255, 255, 0.4); */
