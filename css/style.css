@@ -1,8 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Kaushan+Script|Luckiest+Guy|Open+Sans:bold|Orbitron:bold|Permanent+Marker|Russo+One|Special+Elite);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script|Luckiest+Guy|Open+Sans:bold|Orbitron:bold|Permanent+Marker|Russo+One|Special+Elite|Quantico:bold);
 
 body {
     color: maroon;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Quantico', 'Helvetica', 'Arial',  sans-serif;
     /* font-family: Arial, Helvetica, sans-serif; */
     /* font-family: 'Open Sans', sans-serif; */
     height: 100%;
